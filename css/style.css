@@ -1,0 +1,18 @@
+.bd-placeholder-img {
+     font-size: 1.125rem;
+     text-anchor: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+.navigation{
+     float: right !important;
+     padding-right: 94px !important;
+     padding-top: 10px !important;
+}
+@media (min-width: 768px) {
+     .bd-placeholder-img-lg {
+     font-size: 3.5rem;
+     }
+}
