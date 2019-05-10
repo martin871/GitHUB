@@ -12,7 +12,7 @@ class connectPDO{
 		$this->user = 'root';
 		$this->pass = '';
 
-		$this->getConection();
+		$this->getConection();		
 	}
 
 	function getConection(){
@@ -20,12 +20,12 @@ class connectPDO{
 	}
 
 	public function updateLogs($detail){
-		$detail = 'hola';
-		$timeStamp = '2019-05-09 12:27:00';
-		$this->conn->prepare("INSERT INTO reg_movs (detail, time_stamp) VALUES (:d, :t)");
-		$this->conn->bindParam(':d', $detail);
-		$this->conn->bindParam(':t', $timeStamp);
-		$this->conn->execute();
+		$send = '';
+		$timeStamp = date('Y-m-d H:i:s');		
+		$send = $this->conn->prepare("INSERT INTO reg_movs (id, detail, time_stamp) VALUES (NULL, :d, :t)");
+		$send->bindParam(":d", $detail);
+		$send->bindParam(":t", $timeStamp);
+		$send->execute();
 	}
 }
 ?>

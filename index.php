@@ -1,10 +1,11 @@
 <?php
 /*error_reporting(E_ALL);
-ini_set('display_errors', '1');
-*/
+ini_set('display_errors', '1');*/
+
+date_default_timezone_set("America/Cancun");
 include('class/peticiones.class.php');
 include('class/pdo.class.php');
-$html = "";
+$html = $htmlPaginacion = "";
 
 if(!empty($_GET['q'])){
      $page = empty($_GET['page'])?'':$_GET['page'];
@@ -12,11 +13,11 @@ if(!empty($_GET['q'])){
      $peticion->search = $_GET['q'];
      $peticion->page = !empty($_GET['page'])?$_GET['page']:1;
      $html = $peticion->getHtml();
+     $htmlPaginacion = $peticion->paginacion();
 
      $cn = new connectPDO();
+     $cn->updateLogs($_GET['q']);
 }
-
-exit();
 ?>
 <html lang="es">
      <head>
@@ -40,7 +41,7 @@ exit();
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                          <ul class="navbar-nav mr-auto"></ul>
                          <form class="form-inline mt-2 mt-md-0">
-                              <input class="form-control mr-sm-2" type="text" name="q" value="<?=$_GET['q'];?>" id="search" placeholder="Search" aria-label="Search">
+                              <input class="form-control mr-sm-2" type="text" name="q" value="<?=@$_GET['q'];?>" id="search" placeholder="Search" aria-label="Search">
                               <button class="btn btn-outline-success my-2 my-sm-0" id="btnSearch" type="submit">Search</button>
                          </form>
                     </div>
@@ -54,7 +55,7 @@ exit();
                   <?=$html;?>
                </div>
                <nav class="navigation">
-                  <?=$peticion->paginacion();?>
+                  <?=$htmlPaginacion;?>
                </nav>          
           </div>
           <!-- Begin Footer-->
