@@ -32,6 +32,9 @@ code {
      padding-right: 94px !important;
      padding-top: 10px !important;
 }
+.moda-avatar{
+  width: 50px;
+}
 @media (min-width: 768px) {
      .bd-placeholder-img-lg {
      font-size: 3.5rem;

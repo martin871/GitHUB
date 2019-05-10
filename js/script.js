@@ -34,12 +34,13 @@ function comentarioRepositorio(data){
           var dataOrd = sortJSON(data, 'updated_at');
           $.each(data, function(index, item){                         
                html += "<div class='row border-bottom'>";
+               html += "<div class='col-md-12'><img src='"+item.user.avatar_url+"' class='moda-avatar' /></div>";                         
                html += "<div class='col-md-12 text-muted'>";
-               html += "<small>";                         
-               html += "<span>"+item.user.login+"</span> - <span>"+item.author_association+"</span>";
+               html += "<small class='align-bottom'>"; 
+               html += "<span>"+item.user.login+"</span> - <span class='badge badge-danger'>"+item.author_association+"</span>";
                html += "</small>";
                html += "</div>";
-               html += "<div class='col-md-12'>"+item.body+"</div>";
+               html += "<div class='col-md-12 bg-light p-3 mb-2 border'>"+item.body+"</div>";
                html += "<div class='col-md-12 text-muted'>";
                html += "<small>";
                html += "<span>"+moment(item.updated_at, "YYYYMMDD").format('LL')+"</span>&nbsp;&nbsp;";
