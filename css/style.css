@@ -1,3 +1,24 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #f5f5f5 !important;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
 .bd-placeholder-img {
      font-size: 1.125rem;
      text-anchor: middle;
@@ -16,3 +37,4 @@
      font-size: 3.5rem;
      }
 }
+

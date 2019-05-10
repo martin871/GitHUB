@@ -28,8 +28,7 @@ if(!empty($_GET['q'])){
 
           <!-- Bootstrap core CSS -->
           <link href="css/bootstrap.min.css" rel="stylesheet">
-          <!-- Estilos generales -->
-          <link rel="stylesheet" href="css/sticky-footer-navbar.css">
+          <!-- Estilos generales -->          
           <link rel="stylesheet" href="css/style.css">
      </head>
 
@@ -40,7 +39,7 @@ if(!empty($_GET['q'])){
                     <a class="navbar-brand" href="#">GitHub</a>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                          <ul class="navbar-nav mr-auto"></ul>
-                         <form class="form-inline mt-2 mt-md-0">
+                         <form method="GET" action="index.php" class="form-inline mt-2 mt-md-0">
                               <input class="form-control mr-sm-2" type="text" name="q" value="<?=@$_GET['q'];?>" id="search" placeholder="Search" aria-label="Search">
                               <button class="btn btn-outline-success my-2 my-sm-0" id="btnSearch" type="submit">Search</button>
                          </form>

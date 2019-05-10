@@ -62,11 +62,11 @@ class Peticiones
 	* @return JSON: devuelve todos los repositorios
 	*/
 	function getAPI(){
-		$curl = curl_init();
-		
+		$curl = curl_init();		
+
 		curl_setopt_array($curl, [
 		    CURLOPT_RETURNTRANSFER => 1,
-		    CURLOPT_URL => $this->url.=$this->search,
+		    CURLOPT_URL => $this->url.str_replace(' ', '+', $this->search),
 		    CURLOPT_USERAGENT => 'Codular Sample cURL Request',
 		    CURLOPT_SSL_VERIFYPEER => false
 		]);
