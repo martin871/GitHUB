@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T15:00:23.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171" etag="wHiLU0o01zcL2fnnMaBq" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T16:13:13.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171" etag="Xe5rzmLleTT3wN6o3nge" version="14.6.1" type="github">
   <diagram id="uI9NZhj-tiXMlV7Sy9HS" name="Page-1">
     <mxGraphModel dx="790" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -238,7 +238,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9R2wmJSp-VFCxMIoa1hE-31" value="Fifth Step: confirm hotels&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;width=200;height=15;" vertex="1" parent="1">
-          <mxGeometry x="90" y="620" width="630" height="90" as="geometry" />
+          <mxGeometry x="90" y="620" width="630" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9R2wmJSp-VFCxMIoa1hE-32" value="" style="endArrow=classic;html=1;exitX=0.095;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -246,7 +246,7 @@
             <mxPoint x="379" y="659" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9R2wmJSp-VFCxMIoa1hE-33" value="Request save hotels" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-32">
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-33" value="Request confirmthotel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-32">
           <mxGeometry x="-0.1964" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -259,7 +259,7 @@
         </mxCell>
         <mxCell id="9R2wmJSp-VFCxMIoa1hE-35" value="Checkrate request(if it applies)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-34">
           <mxGeometry x="-0.1964" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="23" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9R2wmJSp-VFCxMIoa1hE-36" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
@@ -274,24 +274,66 @@
         </mxCell>
         <mxCell id="9R2wmJSp-VFCxMIoa1hE-37" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="640" y="690" as="sourcePoint" />
-            <mxPoint x="380" y="690" as="targetPoint" />
+            <mxPoint x="640" y="750" as="sourcePoint" />
+            <mxPoint x="380" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9R2wmJSp-VFCxMIoa1hE-38" value="Checkrate response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-37">
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-38" value="Response status confirm reservation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-37">
           <mxGeometry x="-0.2308" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9R2wmJSp-VFCxMIoa1hE-39" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="380" y="690" as="sourcePoint" />
-            <mxPoint x="140" y="690" as="targetPoint" />
+            <mxPoint x="380" y="750" as="sourcePoint" />
+            <mxPoint x="140" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9R2wmJSp-VFCxMIoa1hE-40" value="Response rescode" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-39">
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-40" value="Response status reservation" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-39">
           <mxGeometry x="-0.2308" y="1" relative="1" as="geometry">
             <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-41" value="" style="endArrow=classic;html=1;entryX=0.46;entryY=0.556;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9R2wmJSp-VFCxMIoa1hE-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="690" as="sourcePoint" />
+            <mxPoint x="300" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="690" />
+              <mxPoint x="340" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-42" value="" style="endArrow=classic;html=1;exitX=0.095;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="720" as="sourcePoint" />
+            <mxPoint x="643" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-43" value="confirm hotel)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-42">
+          <mxGeometry x="-0.1964" y="-4" relative="1" as="geometry">
+            <mxPoint x="23" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-44" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="720" as="sourcePoint" />
+            <mxPoint x="640" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="720" />
+              <mxPoint x="680" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-45" value="" style="endArrow=classic;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="690" as="sourcePoint" />
+            <mxPoint x="380" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9R2wmJSp-VFCxMIoa1hE-46" value="CheckRate response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9R2wmJSp-VFCxMIoa1hE-45">
+          <mxGeometry x="-0.2308" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
