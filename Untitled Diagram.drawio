@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T14:20:26.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171" etag="BTkxt0GuPJmD2ztHUzf4" version="14.6.1" type="github"><diagram id="uI9NZhj-tiXMlV7Sy9HS" name="Page-1">7Vldc9o4FP01PMZjW/jrkQAtncm2mZLOLvuSEbYwmrUtKomv/vpKtgyWBWygIZMmJTPBuhLX0j3n3HsNHdDPNx8pXMz/IgnKOq6dbDpg0HFdB4SueJOWbWUJIq8ypBQnatHeMMY/kDLayrrECWLaQk5IxvFCN8akKFDMNRuklKz1ZTOS6XddwBQZhnEMM9P6N074vLKGbrC3jxBO5/WdHT+qZnJYL1YnYXOYkHXDBIYd0KeE8Ooq3/RRJoNXx6X63Icjs7uNUVTwp3wgHS3/9R+CuwGbJmNGJ8Gn0eRGeVnBbKkOPCFLKne7ZRzlaud8W4dDHGIhL5d51os5oR1wu0KUYxGwOzhF2T1hmGNSiCVTwjnJGwt6GU7lBCcLYZ3zPBMDR1ySJc9wgfo7CG1hNI9X71W4Q5uGSR33IyI54nQrltSzdegV90I1XO+BBMo0b2DoKxtU1El3jvfRFRcqwGcE2zeC3bv/dHM7nHz5PDga6XyTSmVZMWYxsXLx3/ID235kiGIpjGYgFwQXHNHhSsSMKVsC2RwlKqgznGV9kkncxD2ADfwwCoSdcUr+Q42ZWfnazdTUdy/HG6pRjOQWr4g68HTUg9BA3e8eQL17JdTDQ6g/fBsMhXH05WF4N34i9vPllD3CInlMIUdruGVWigrBgrg2/CGDQQbfaZEBmGTwTTIE1yJDvZ0GGwz0UZH0ZOUSo4IUqAmbo0N8NEAo0aqaGZ7G+b0DKbC2UZRBjld6LTwUFHWHe8m5RgIGfisBt1IrE8UmRupTzdplOPIsP3R2f25X8+v4ge6XQ5oibvgtIdtF4RdQNMvmDFPGSxyRIHhPxpPwshfKMOOn6ugHCnMJ8nqOORovYCzta6F7HesaMVnUxEQNlvtMQol0nTgHaqV/qFhG1yqWjvuelAKCyAKunqqi8DKxSF+2fUIs3suKBbwnIP2uYwEn2r9aCdC9DFPpVsO0BWn0spB2z4I0ziBjONaBRBvM/5GF3rLFI2E1npRjz/PVeLBRnUA52DYG96LvEaeQvcPpVuGV0MIBgYaY60SXEUGI+7Sja0PvGdB/Rd+XqCx+J0ueRKJsE3UeGK1gu2PMcZJIH7cUMfwDTkt/dt3glqf2bjve4CALTtO3XR13XyOou3SaT+qHquaNbTmRr+fXm+6vMaZeQmYzhq6Dofkg+ke+p8tz6LVVZ0WRkeXPzuogPMfttaUdnJB2bwVxVsriFeu65vU71bVrPpacrWut73rtsvS7+lPL7rvW89urliOv5eiI9EQo4baxTFH3+IbDwxs+uq/2ek9bLy6qHTwvjc5r2N8gjdroP7k5OwLXS2Vw1+zLvyK2IAVDv0kK33HvOVK4C2y9vjqvPoOb3fXblt7/KubJ3xBemMGfDTmzp25IbyQfjNjvosGahG9Ng2K4/7m1Wr7/0RoMfwI=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-16T14:25:59.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 OPR/75.0.3969.171" etag="njKOWsiNj1tw01c_ngNf" version="14.6.1" type="github">
+  <diagram id="uI9NZhj-tiXMlV7Sy9HS" name="Page-1">
+    <mxGraphModel dx="1382" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-1" value="Your system" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-6" value="API-BEYOND" style="shape=mxgraph.cisco.misc.6700_series;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="78" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-8" value="APITUDE HOTELS" style="shape=mxgraph.cisco.hubs_and_gateways.generic_gateway;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="610" y="73" width="66" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-10" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="136" y="800" as="sourcePoint" />
+            <mxPoint x="135.68181818181824" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-11" value="first step: hotel list" style="shape=umlFrame;whiteSpace=wrap;html=1;width=120;height=20;" parent="1" vertex="1">
+          <mxGeometry x="90" y="180" width="630" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-12" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.32" y="798" as="sourcePoint" />
+            <mxPoint x="379.00181818181824" y="165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-13" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="641.3199999999999" y="802" as="sourcePoint" />
+            <mxPoint x="641.0018181818182" y="169" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-14" value="" style="endArrow=classic;html=1;exitX=0.095;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="137" y="219" as="sourcePoint" />
+            <mxPoint x="379" y="219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-15" value="Request hotel list" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gHuZ6T7LDsbdSsrY7IHY-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.1964" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-16" value="" style="endArrow=classic;html=1;exitX=0.095;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="385" y="219.9999999999999" as="sourcePoint" />
+            <mxPoint x="638" y="219.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-17" value="Request Available" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gHuZ6T7LDsbdSsrY7IHY-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.1964" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-21" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="220" as="sourcePoint" />
+            <mxPoint x="640" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="220" />
+              <mxPoint x="680" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-23" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="250" as="sourcePoint" />
+            <mxPoint x="380" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-24" value="Response Available" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gHuZ6T7LDsbdSsrY7IHY-23" vertex="1" connectable="0">
+          <mxGeometry x="-0.2308" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-25" value="" style="endArrow=classic;html=1;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="250" as="sourcePoint" />
+            <mxPoint x="140" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHuZ6T7LDsbdSsrY7IHY-26" value="Response Hotels Available" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="gHuZ6T7LDsbdSsrY7IHY-25" vertex="1" connectable="0">
+          <mxGeometry x="-0.2308" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
